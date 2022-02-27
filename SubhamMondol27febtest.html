@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <title>
+        Create a Portfolio Gallery
+        using HTML and CSS
+    </title>
+     
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1">
+         
+    <style>
+      
+        /* wildcard styling */
+        * {
+            box-sizing: border-box;
+        }
+          
+        /* padding for whole body */
+        body {
+            padding: 15px;
+            
+        }
+          
+        /* styling body */
+        .container {
+            max-width: 1200px;
+            margin: auto;
+        }
+          
+        h1 {
+            color: blueviolet;
+        }
+          
+        /* anchor tag decoration */
+        a {
+            text-decoration: none;
+            color: blue;
+        }
+          
+        a:hover {
+            color: violet;
+        }
+          
+        /* paragraph tag decoration */
+        p {
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 4;
+            overflow: hidden;
+      
+        }
+          
+        /* row and column decoration */
+        .row {
+            margin: 0px -18px;
+            padding: 8px;
+        }
+          
+        .row > .column {
+            padding: 6px;
+        }
+          
+        .column {
+            float: left;
+            width: 25%;
+        }
+          
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+          
+        /* content decoration */
+        .content {
+            background-color: greenyellow;
+            padding: 10px;
+            border: 1px solid brown;
+        }
+          
+        /* window size 850 width set */
+        @media screen and (max-width: 850px) {
+            .column {
+                width: 50%;
+            }
+        }
+      
+        /* window size 400 width set */
+        @media screen and (max-width: 400px) {
+            .column {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+ 
+<body bgcolor="Pink">
+      
+    <!-- title and tag -->
+    <div class="container">
+        <h1>Subham Mondol Protfolio</h1>
+        <h3>Computer Science and Engineering</h3>
+        <h4>Sambhram Institute Of Technology,Banglore</h4>
+        <hr>
+  
+        <!-- Content of the body-->
+        <h2>Portfolio</h2>
+        <div class="row">
+            <div class="column">
+                <div class="content">
+                    <img src=
+"https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8c3R1ZGVudCUyMHBob3RvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                        alt="" style="width:100%">
+                    <h3>
+                        <a href="#">About Me</a>
+                    </h3>
+                     
+ 
+ 
+<p>
+                        Hi My name is Subham Mondol and 
+                        I Come from Assam.I born In Assam
+                        I am also completed my scooling from Assam
+                        Now I am in banglore for My Engineering Study.
+                        I read in Sambhram Institute Of technology.
+                        
+                    </p>
+ 
+ 
+ 
+                </div>
+            </div>
+             
+            <div class="column">
+                <div class="content">
+                    <img src=
+"https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGxheXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                        alt="" style="width:100%">
+                    <h3>
+                        <a href="#">Hobbies</a>
+                    </h3>
+                     
+                     
+ 
+ 
+<p>
+                        My like dance and sing a song 
+                        I also like cook food for 
+                        my Family Mostly i like
+                        Outdor game .
+                    </p>
+ 
+ 
+ 
+                </div>
+            </div>
+             
+            <div class="column">
+                <div class="content">
+                    <img src=
+"https://media.istockphoto.com/photos/savings-money-clip-3d-picture-id139900280?b=1&k=20&m=139900280&s=170667a&w=0&h=Dv8V7jVVUb1piz-EolHQVR20LYicBFWlNRjBFqcXWtU="
+                        alt="" style="width:100%">
+                    <h3>
+                        <a href="#">Intrest</a>
+                    </h3>
+                     
+                     
+ 
+ 
+<p>
+                        Basically my intrest iy earn money.
+                        But I also like dancing,drinking,Coding
+                        I mostly doing coding in my free time
+                        I also doing social work for poor people
+                        I also like doing yoga 
+                        But my prior intrest is my coding
+
+                    </p>
+ 
+ 
+ 
+                </div>
+            </div>
+             
+            <div class="column">
+                <div class="content">
+                    <img src=
+"https://media.istockphoto.com/photos/recharge-before-they-raise-the-roof-picture-id1297763375?b=1&k=20&m=1297763375&s=170667a&w=0&h=bnDr-Oad5Kfpk8HVUG64PrnWfTfbnnacwATTuNxQN00="
+                        alt="" style="width:100%">
+                    <h3>
+                        <a href="#">Skills</a>
+                    </h3>
+                     
+                     
+ 
+ 
+<p>
+                    My skill is C/C++
+                    Lorem, ipsum dolor sit
+                     amet consectetur 
+                     adipisicing elit.
+                      Laborum, aperiam.    
+                    </p>
+ 
+ 
+ 
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+  
+</html>        
